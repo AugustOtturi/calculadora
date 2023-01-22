@@ -1,0 +1,34 @@
+header {
+    .navbar {
+        background-color: $color1;
+        height: 10%;
+        .container-fluid{
+            .navbar-brand{
+                font-size: 3rem;
+                font-family: $font-family1;
+            }
+            .navbar-collapse{
+                ul{
+                    li{
+
+                        a{
+                            font-size: 1.5rem;
+                            font-weight: bold;
+                            color: black;
+                            i{
+                                vertical-align:auto;
+                                color: black;
+                                font-size: 1.7rem;
+                                padding: 0 0.5rem;
+                            }
+                            &:hover{
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

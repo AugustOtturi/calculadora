@@ -1,0 +1,72 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*? Fuentes */
+/*? Colores */
+/*? Tamaños */
+/* $tittleSize: ;
+$textSize:;
+$iconsSize;
+ */
+/*? Margins */
+header .navbar {
+  background-color: #cdb4db;
+  height: 10%; }
+  header .navbar .container-fluid .navbar-brand {
+    font-size: 3rem;
+    font-family: "Play", sans-serif; }
+  header .navbar .container-fluid .navbar-collapse ul li a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black; }
+    header .navbar .container-fluid .navbar-collapse ul li a i {
+      vertical-align: auto;
+      color: black;
+      font-size: 1.7rem;
+      padding: 0 0.5rem; }
+    header .navbar .container-fluid .navbar-collapse ul li a:hover {
+      color: gray; }
+
+/* !PROVEDORES  */
+.inventario .container-fluid {
+  height: 100%;
+  width: 100%; }
+  .inventario .container-fluid h1 {
+    text-align: center;
+    padding: 3rem; }
+  .inventario .container-fluid .botones {
+    background-color: #ef8989;
+    padding: 2rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+    .inventario .container-fluid .botones button {
+      margin: 0.5rem 1rem; }
+
+/* UTILIDADES */
+.utilidades .container-fluid h1 {
+  text-align: center;
+  padding-top: 3rem; }
+
+.utilidades .container-fluid .row {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .utilidades .container-fluid .row .col-10 {
+    margin: 1.3rem; }
+    .utilidades .container-fluid .row .col-10 .card {
+      height: 25rem;
+      background-color: #bde0fe;
+      margin: 2rem 1rem; }
+      .utilidades .container-fluid .row .col-10 .card .card-body .card-title {
+        height: 15%;
+        font-size: 1.6rem; }
+      .utilidades .container-fluid .row .col-10 .card .card-body .card-text {
+        height: 65%;
+        text-align: justify;
+        font-size: 1.1rem; }
